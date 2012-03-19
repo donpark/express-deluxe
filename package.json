@@ -1,0 +1,10 @@
+{
+    "name": "{{application_name}}"
+  , "version": "{{application_version}}"
+  , "private": true
+  , "dependencies": {
+      "express": "2.x"
+    , "jade": "0.x"
+    , "stylus": "0.x"
+  }
+}

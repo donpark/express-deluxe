@@ -1,0 +1,18 @@
+{
+  "params": {
+    "application_name": {
+      "type": "string"
+    },
+    "application_version": {
+      "type": "version"
+    , "default": "0.0.1"
+    },
+    "application_title": {
+      "type": "string"
+    },
+    "application_port": {
+      "type": "int"
+    , "default": "3000"
+    }
+  }
+}
