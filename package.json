@@ -5,6 +5,8 @@
   , "dependencies": {
       "express": "2.x"
     , "jade": "0.x"
+    , "connect-redis": "1.x"
+    , "socket.io": "0.x"
     , "stylus": "0.x"
   }
 }

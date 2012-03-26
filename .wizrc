@@ -10,9 +10,13 @@
     "application_title": {
       "type": "string"
     },
-    "application_port": {
-      "type": "int"
-    , "default": "3000"
+    "application_url": {
+      "type": "url"
+    , "default": "http://localhost:3000"
+    },
+    "session_store_secret": {
+      "type": "random-string"
+    , "size": 20
     }
   }
 }
